@@ -1,21 +1,32 @@
 ---
-default: &elm
-  name: East London Mosque
+default: &psiy
+  name: Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)
   description: |
-    The East London Mosque, which incorporates the London Muslim Centre and the Maryam Centre, has a rich history, with roots in the London Mosque Fund established in 1910. It has gone on to become one of the most active Islamic institutions in Britain.
+    PSIY is the local central mosque of Oulu, that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
   about: |
-    The East London Mosque, which incorporates the London Muslim Centre and the Maryam Centre, has a rich history, with roots in the London Mosque Fund established in 1910. It has gone on to become one of the most active Islamic institutions in Britain.
+    The Islamic Society of Northern Finland was registered in 2000, but Islamic activities began in the 90s. Our actions are a response to the call of Allah SWT(Subhanahu wata`ala): "and that you may become a congregation that calls people to goodness, guides them to the right way of life, and prevents them from evil" (Surah Al-Imran: verse 104).
+    The goal of the organization is to please Allah (SWT) by striving to promote Islam, develop the Muslim community and benefit society. The organization always follows the Qur'an and the Sunnah (Prophets teaching), along with the Islamic Sharia, when making decisions and drawing up policies and procedures.
 
-    We offer wide range of services from our complex. In addition to the daily prayers, we have: advice and counselling; education for children and adults; services related to birth, marriage and death; and many more.
+    We are based in Oulu, Northern Ostrobothnia, Finland.
+    
+  content_sections:
+    - title: Oulu Central Mosque
+      body: |
+        Linnankatu 23, 90100 Oulu
 
-    There are a number of ways to contact us, and you can find our address and how to get to us here.
+        Winter Jummah times
+        - 12:30 pm
 
-    Serving the community, working in partnership
-    Our partnerships with Tower Hamlets Council, the local Primary Care Trust, The East London Communities Organisation (TELCO), Tower Hamlets Interfaith Forum, the Metropolitan Police and many others have helped contribute towards improvements in education, health provision, environment, and community cohesion.
+        Summer Jummah times
+        - 1:30 pm
+
+        [Download](../pages/SEPTEMBER-2022-OULU.pdf) this months timetable.
+
   branding:
-    logo_url: https://www.eastlondonmosque.org.uk/clients/eastlondonmosque/assets/logo@2x.png
-    banner_image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=37a63912-6755-4581-bd0e-37d8d848e1b6&w=2184&h=1456&src=mc
+    logo_url: '../img/PSIY_logo.png'
+    banner_image_url: '../img/Masjid_Front.jpg'
     primary_color: "#95112d"
+  
   team:
     - name: Dilowar Hussain Khan
       role: Director of Finance & Engagement
@@ -35,13 +46,16 @@ default: &elm
     description: |
       Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ﷺ said: “Allah said: ‘Spend, O son of Adam, and I shall spend on you.’”.
     link_label: Donate now
-    link: https://www.eastlondonmosque.org.uk/donate/donate-now
+    link: 
   contact:
     addresses:
-    	- East London Mosque Trust, 82-92 Whitechapel Road, LONDON, E1 1JQ
+    	- Oulu Central Mosque, Linnankatu 23, 90100 Oulu, Finland
     phone_numbers:
-      - name: Reception
-        number: "020 7650 3000"
+      - name: President - Dr. Abdul Mannan
+        number: "+358 50 0582371"
+    email_addresses:
+      - name: General email
+        address: amannan56@hotmail.com
   charity_information:
     - label: Charity name
       value: The East London Mosque Trust
@@ -49,199 +63,276 @@ default: &elm
       value: 1122613
     - label: Date Registered
       value: 05 February 2008
-elm.mosque.website:
-  <<: *elm
+psiy.mosque.website:
+  <<: *psiy
 eastlondon.mosque.website:
-  <<: *elm
-cheacs.mosque.website: &cheacs
-  name: Chadwell Heath Educational and Cultural Society
-  description: |
-    CHEACS is local charity that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
-  about: |
-    Chadwell Heath Educational and Cultural Society (CHEACS), we are a local registered charity established in 2005 (registration number 1125112) providing religious, educational and social activities for the local community such as sports and recreational activities, educational sessions for children, language classes and events for senior citizens.
+  <<: *psiy
+# cheacs.mosque.website: &cheacs
+#   name: Chadwell Heath Educational and Cultural Society
+#   description: |
+#     CHEACS is local charity that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
+#   about: |
+#     Chadwell Heath Educational and Cultural Society (CHEACS), we are a local registered charity established in 2005 (registration number 1125112) providing religious, educational and social activities for the local community such as sports and recreational activities, educational sessions for children, language classes and events for senior citizens.
 
-    Every six months we hold community events with the wider community and provide food for attendees once a month. Our organisation also provides advice surgeries once a week to set an example as great role models, to be of a good character and integrate into the local community.
+#     Every six months we hold community events with the wider community and provide food for attendees once a month. Our organisation also provides advice surgeries once a week to set an example as great role models, to be of a good character and integrate into the local community.
 
-    We have been serving the local community for the last seventeen years and have grown from strength to strength.
+#     We have been serving the local community for the last seventeen years and have grown from strength to strength.
 
-    We are based at Grove Social Club, 50 Grove Road, Romford, Essex, RM6 4AQ
-  content_sections:
-    - title: Marjorie Collins Centre
-      body: |
-        237 Grove Road, Chadwell Heath, Romford, Essex, RM6 4XF
+#     We are based at Grove Social Club, 50 Grove Road, Romford, Essex, RM6 4AQ
+#   content_sections:
+#     - title: Marjorie Collins Centre
+#       body: |
+#         237 Grove Road, Chadwell Heath, Romford, Essex, RM6 4XF
 
-        Winter Jummah times
-        - 12:30 pm
-        - 1:00 pm
+#         Winter Jummah times
+#         - 12:30 pm
+#         - 1:00 pm
 
-        Summer Jummah times
-        - 1:30 pm
-        - 2:15 pm
+#         Summer Jummah times
+#         - 1:30 pm
+#         - 2:15 pm
 
-    - title: Kieth Axon Centre library
-      body: |
-        160-170 Grove Road, Chadwell Heath, RM6 4XB
+#     - title: Kieth Axon Centre library
+#       body: |
+#         160-170 Grove Road, Chadwell Heath, RM6 4XB
 
-        Winter Jummah times
-        - 1:30 pm
+#         Winter Jummah times
+#         - 1:30 pm
 
-        Summer Jummah times
-        - 1:50 pm
-  branding:
-    logo_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs-logo-new2.png
-    banner_image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/grove-social-club.jpeg
-    primary_color: "#CEB97A"
-    larger_logo: true
-  team:
-    - name: Malik Chowdhury-Nanu
-      role: Chairperson
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_1.jpeg
-    - name: Aktar Ali Chowdhury
-      role: Secretary
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_2.jpeg
-    - name: Mohammed Monsur Ahmed
-      role: Treasurer
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_6.jpeg
-    - name: Ashuque Ahmed
-      role: Assistant Secretary
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_4.jpeg
-    - name: Abdul Malik
-      role: Assistant Treasurer
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_5.jpeg
-    - name: Helal Chowdhury
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_11.jpeg
-    - name: Rahat Miah
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_7.jpeg
-    - name: Syed Nuruzzaman
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_8.jpeg
-    - name: Shaukathusain Hafeji
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_9.jpeg
-    - name: Arakoth Chowdhury
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_10.jpeg
-    - name: Abdur Rob
-      role: Member
-      image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_12.jpeg
-  contact:
-    addresses:
-      - 50 Grove Road, Romford, Essex, RM6 4AQ
-    phone_numbers:
-      - name: Chairperson
-        number: "07957573480"
-      - name: Secretary
-        number: "07773328317"
-      - name: Treasurer
-        number: "07714420575"
-    email_addresses:
-      - name: General email
-        address: cheacs786@gmail.com
-  donation:
-    title: Donations
-    subtitle: Help build and maintain the society
-    description: |
-      Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ﷺ said: “Allah said: ‘Spend, O son of Adam, and I shall spend on you.’”.
+#         Summer Jummah times
+#         - 1:50 pm
+#   branding:
+#     logo_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs-logo-new2.png
+#     banner_image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/grove-social-club.jpeg
+#     primary_color: "#CEB97A"
+#     larger_logo: true
+#   team:
+#     - name: Malik Chowdhury-Nanu
+#       role: Chairperson
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_1.jpeg
+#     - name: Aktar Ali Chowdhury
+#       role: Secretary
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_2.jpeg
+#     - name: Mohammed Monsur Ahmed
+#       role: Treasurer
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_6.jpeg
+#     - name: Ashuque Ahmed
+#       role: Assistant Secretary
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_4.jpeg
+#     - name: Abdul Malik
+#       role: Assistant Treasurer
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_5.jpeg
+#     - name: Helal Chowdhury
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_11.jpeg
+#     - name: Rahat Miah
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_7.jpeg
+#     - name: Syed Nuruzzaman
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_8.jpeg
+#     - name: Shaukathusain Hafeji
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_9.jpeg
+#     - name: Arakoth Chowdhury
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_10.jpeg
+#     - name: Abdur Rob
+#       role: Member
+#       image_url: https://github.com/Mosque-Screens/mosque-logos/raw/master/cheacs_trustee_12.jpeg
+#   contact:
+#     addresses:
+#       - 50 Grove Road, Romford, Essex, RM6 4AQ
+#     phone_numbers:
+#       - name: Chairperson
+#         number: "07957573480"
+#       - name: Secretary
+#         number: "07773328317"
+#       - name: Treasurer
+#         number: "07714420575"
+#     email_addresses:
+#       - name: General email
+#         address: cheacs786@gmail.com
+#   donation:
+#     title: Donations
+#     subtitle: Help build and maintain the society
+#     description: |
+#       Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ﷺ said: “Allah said: ‘Spend, O son of Adam, and I shall spend on you.’”.
 
-      For Qarz-e-hasana and any donations higher than a £1000, please transfer directly to our account:
+#       For Qarz-e-hasana and any donations higher than a £1000, please transfer directly to our account:
 
-      **Bank name:** Natwest Bank
+#       **Bank name:** Natwest Bank
 
-      **Account name:** Chadwell Heath Educational & Cultural Society (CHEACS)
+#       **Account name:** Chadwell Heath Educational & Cultural Society (CHEACS)
 
-      **Sort code:** 56-00-47
+#       **Sort code:** 56-00-47
 
-      **Account number:** 38600935
-    link_label: Donate now
-    link: https://www.justgiving.com/crowdfunding/cheacs
-  charity_information:
-    - label: Charity name
-      value: Chadwell Heath Educational and Cultural Society
-    - label: Charity registration number
-      value: 1125112
-    - label: Date Registered
-      value: 22 July 2008
-    - label: Established in
-      value: 2005
-cheacs.com:
-  <<: *cheacs
-www.cheacs.com:
-  <<: *cheacs
-rainham.mosque.website: &rainham
-  name: Rainham Muslim Community
-  description:
-  about: |
-    Rainham currently doesn't have an official place of worship. There are, however, multiple locations which are hired out for the community to pray Friday Jummah prayer. This page will help bring the times and locations together in one place.
+#       **Account number:** 38600935
+#     link_label: Donate now
+#     link: https://www.justgiving.com/crowdfunding/cheacs
+#   charity_information:
+#     - label: Charity name
+#       value: Chadwell Heath Educational and Cultural Society
+#     - label: Charity registration number
+#       value: 1125112
+#     - label: Date Registered
+#       value: 22 July 2008
+#     - label: Established in
+#       value: 2005
+# cheacs.com:
+#   <<: *cheacs
+# www.cheacs.com:
+#   <<: *cheacs
 
-    Please note that the maintainers of the site will try their best to keep the information up to date. If you notice any incorrect information, please raise a change request on our [Github repo](https://github.com/Mosque-Screens/mosque.website).
-  content_sections:
-    - title: Royals Youth Centre (Opposite Tesco)
-      body: |
-        [Royal Youth Centre, Viking Way, Rainham RM13 9YG](https://goo.gl/maps/eN2gp9BWQu7m6ubf7)
+# rainham.mosque.website: &rainham
+#   name: Rainham Muslim Community
+#   description:
+#   about: |
+#     Rainham currently doesn't have an official place of worship. There are, however, multiple locations which are hired out for the community to pray Friday Jummah prayer. This page will help bring the times and locations together in one place.
 
-        ### Jummah times
-        1. 12:30pm - 1:10pm
-        1. 1:25pm - 1:50pm
-        1. 2:00pm - 2:20pm
+#     Please note that the maintainers of the site will try their best to keep the information up to date. If you notice any incorrect information, please raise a change request on our [Github repo](https://github.com/Mosque-Screens/mosque.website).
+#   content_sections:
+#     - title: Royals Youth Centre (Opposite Tesco)
+#       body: |
+#         [Royal Youth Centre, Viking Way, Rainham RM13 9YG](https://goo.gl/maps/eN2gp9BWQu7m6ubf7)
 
-        ### Notes from management
-        1. Covid restrictions apply
-        1. Everyone attending must wear face mask
-        1. Do your ablution before coming to the mosque
-        1. if you have a temperature or cough please do not come
-        1. Women's prayer 2nd Prayer only
-    - title: Mardyke Community Centre
-      body: |
-        [Mardyke Community Centre, South St, Rainham RM13 8PJ](https://goo.gl/maps/EVv9R2d9UG8pW2zJ9)
+#         ### Jummah times
+#         1. 12:30pm - 1:10pm
+#         1. 1:25pm - 1:50pm
+#         1. 2:00pm - 2:20pm
 
-        ### Jummah times
-        1. Khutbah starts at 1.30pm
+#         ### Notes from management
+#         1. Covid restrictions apply
+#         1. Everyone attending must wear face mask
+#         1. Do your ablution before coming to the mosque
+#         1. if you have a temperature or cough please do not come
+#         1. Women's prayer 2nd Prayer only
+#     - title: Mardyke Community Centre
+#       body: |
+#         [Mardyke Community Centre, South St, Rainham RM13 8PJ](https://goo.gl/maps/EVv9R2d9UG8pW2zJ9)
 
-        ### Notes from management
-        1. Please arrive promptly
-        1. Please come with wudhu
-        1. Prayer facilities for brothers only
-    - title: Rainham Library (First Floor)
-      body: |
-        [Rainham Library, First Floor, Celtic Farm Rd, Rainham RM13 9GP](https://goo.gl/maps/FKdGYAwTHDisFCgZ6)
+#         ### Jummah times
+#         1. Khutbah starts at 1.30pm
 
-        ### Jummah times
-        1. Speech by Imam starts at 1pm, Khutbah starts at 1.30pm
+#         ### Notes from management
+#         1. Please arrive promptly
+#         1. Please come with wudhu
+#         1. Prayer facilities for brothers only
+#     - title: Rainham Library (First Floor)
+#       body: |
+#         [Rainham Library, First Floor, Celtic Farm Rd, Rainham RM13 9GP](https://goo.gl/maps/FKdGYAwTHDisFCgZ6)
 
-        ### Notes from management
-        1. Please arrive promptly
-        1. Please come with wudhu
-    - title: Taha Academy Rainham
-      body: |
-        [Harris Academy Rainham, Lambs Lane South, Rainham RM13 9XD](https://goo.gl/maps/ZTaAvUygX9XcSswt6)
+#         ### Jummah times
+#         1. Speech by Imam starts at 1pm, Khutbah starts at 1.30pm
 
-        ### Opening times
+#         ### Notes from management
+#         1. Please arrive promptly
+#         1. Please come with wudhu
+#     - title: Taha Academy Rainham
+#       body: |
+#         [Harris Academy Rainham, Lambs Lane South, Rainham RM13 9XD](https://goo.gl/maps/ZTaAvUygX9XcSswt6)
 
-        1. Sat & Sun (10:00am - 1:00pm)
-        1. Monday to Wednesday (5:30pm - 7:30pm)
+#         ### Opening times
 
-        ### Weekend & Weekday Islamic School
-        - Qawaid
-        - Qur'an
-        - Hifz
-        - Tajweed
-        - Duas
-        - Islamic Studies
-        - Extensive Curriculum
-        - High Quality Teaching
-        - Interactive Lessons
-        - Male & Female Teachers
+#         1. Sat & Sun (10:00am - 1:00pm)
+#         1. Monday to Wednesday (5:30pm - 7:30pm)
 
-        ### For further information
+#         ### Weekend & Weekday Islamic School
+#         - Qawaid
+#         - Qur'an
+#         - Hifz
+#         - Tajweed
+#         - Duas
+#         - Islamic Studies
+#         - Extensive Curriculum
+#         - High Quality Teaching
+#         - Interactive Lessons
+#         - Male & Female Teachers
 
-        07375225859
+#         ### For further information
 
-        [info@tahaacademy.com](mailto:info@tahaacademy.com)
+#         07375225859
 
-  branding:
-    banner_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rainham_%28Essex%29_station_signage.JPG/1200px-Rainham_%28Essex%29_station_signage.JPG
-    primary_color: "#11846d"
+#         [info@tahaacademy.com](mailto:info@tahaacademy.com)
+
+#   branding:
+#     banner_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rainham_%28Essex%29_station_signage.JPG/1200px-Rainham_%28Essex%29_station_signage.JPG
+#     primary_color: "#11846d"
+  
+#   rainham.mosque.website: &rainham
+#   name: Rainham Muslim Community
+#   description:
+#   about: |
+#     Rainham currently doesn't have an official place of worship. There are, however, multiple locations which are hired out for the community to pray Friday Jummah prayer. This page will help bring the times and locations together in one place.
+
+#     Please note that the maintainers of the site will try their best to keep the information up to date. If you notice any incorrect information, please raise a change request on our [Github repo](https://github.com/Mosque-Screens/mosque.website).
+#   content_sections:
+#     - title: Royals Youth Centre (Opposite Tesco)
+#       body: |
+#         [Royal Youth Centre, Viking Way, Rainham RM13 9YG](https://goo.gl/maps/eN2gp9BWQu7m6ubf7)
+
+#         ### Jummah times
+#         1. 12:30pm - 1:10pm
+#         1. 1:25pm - 1:50pm
+#         1. 2:00pm - 2:20pm
+
+#         ### Notes from management
+#         1. Covid restrictions apply
+#         1. Everyone attending must wear face mask
+#         1. Do your ablution before coming to the mosque
+#         1. if you have a temperature or cough please do not come
+#         1. Women's prayer 2nd Prayer only
+#     - title: Mardyke Community Centre
+#       body: |
+#         [Mardyke Community Centre, South St, Rainham RM13 8PJ](https://goo.gl/maps/EVv9R2d9UG8pW2zJ9)
+
+#         ### Jummah times
+#         1. Khutbah starts at 1.30pm
+
+#         ### Notes from management
+#         1. Please arrive promptly
+#         1. Please come with wudhu
+#         1. Prayer facilities for brothers only
+#     - title: Rainham Library (First Floor)
+#       body: |
+#         [Rainham Library, First Floor, Celtic Farm Rd, Rainham RM13 9GP](https://goo.gl/maps/FKdGYAwTHDisFCgZ6)
+
+#         ### Jummah times
+#         1. Speech by Imam starts at 1pm, Khutbah starts at 1.30pm
+
+#         ### Notes from management
+#         1. Please arrive promptly
+#         1. Please come with wudhu
+#     - title: Taha Academy Rainham
+#       body: |
+#         [Harris Academy Rainham, Lambs Lane South, Rainham RM13 9XD](https://goo.gl/maps/ZTaAvUygX9XcSswt6)
+
+#         ### Opening times
+
+#         1. Sat & Sun (10:00am - 1:00pm)
+#         1. Monday to Wednesday (5:30pm - 7:30pm)
+
+#         ### Weekend & Weekday Islamic School
+#         - Qawaid
+#         - Qur'an
+#         - Hifz
+#         - Tajweed
+#         - Duas
+#         - Islamic Studies
+#         - Extensive Curriculum
+#         - High Quality Teaching
+#         - Interactive Lessons
+#         - Male & Female Teachers
+
+#         ### For further information
+
+#         07375225859
+
+#         [info@tahaacademy.com](mailto:info@tahaacademy.com)
+
+#   branding:
+#     banner_image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rainham_%28Essex%29_station_signage.JPG/1200px-Rainham_%28Essex%29_station_signage.JPG
+#     primary_color: "#11846d"
+    
 localhost:3000:
-  <<: *cheacs
+  <<: *psiy
