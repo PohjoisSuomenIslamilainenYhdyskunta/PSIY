@@ -18,7 +18,7 @@ default: &psiy
         - Winter - 12:30 pm
         - Summer - 1:30 pm
 
-        [Download](../SEPTEMBER-2022-OULU.pdf) this months timetable.
+        [Download](../pages/SEPTEMBER-2022-OULU.pdf) this months timetable.
     
     - title: Services
       body: |
@@ -61,13 +61,13 @@ default: &psiy
     email_addresses:
       - name: General email
         address: amannan56@hotmail.com
-  charity_information:
-    - label: Charity name
-      value: The East London Mosque Trust
-    - label: Charity registration number
-      value: 1122613
-    - label: Date Registered
-      value: 05 February 2008
+  # charity_information:
+  #   - label: Charity name
+  #     value: The East London Mosque Trust
+  #   - label: Charity registration number
+  #     value: 1122613
+  #   - label: Date Registered
+  #     value: 05 February 2008
 psiy.mosque.website:
   <<: *psiy
 eastlondon.mosque.website:
