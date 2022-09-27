@@ -36,12 +36,12 @@ default: &psiy
     img_1: '../imgs/1.jpeg'
     img_2: '../imgs/2.jpeg'
     img_3: '../imgs/3.jpeg'
-    header_1: 'First slide'
-    header_2: 'Second slide'
-    header_3: 'Third slide'
-    des_1: 'Eid Reunion 10 July 2022 at Haukipudas'
-    des_2: 'Yet to update'
-    des_3: 'Yet to update'
+    header_1: 'Eid Reunion on 10 July 2022 at Haukipudas'
+    header_2: 'Summer Camp 2022'
+    header_3: 'Children seminar during summer camp 2022'
+    des_1: 
+    des_2: 
+    des_3: 
   
   # team:
   #   - name: Dilowar Hussain Khan
