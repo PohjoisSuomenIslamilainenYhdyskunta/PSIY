@@ -18,7 +18,7 @@ default: &psiy
         - Winter - 12:30 pm
         - Summer - 1:30 pm
 
-        [Download](../pages/SEPTEMBER-2022-OULU.pdf) this months timetable.
+        [Download](../SEPTEMBER-2022-OULU.pdf) this months timetable.
     
     - title: Services
       body: |
@@ -28,23 +28,23 @@ default: &psiy
         - It collaborates with the Oulu City council, Oulu Church authority, and other religious ogranizations for integration.
 
   branding:
-    logo_url: '../img/PSIY_logo.png'
-    banner_image_url: '../img/Masjid_Front.jpg'
+    logo_url: '../imgs/PSIY_logo.png'
+    banner_image_url: '../imgs/Masjid_Front.jpg'
     primary_color: "#95112d"
   
-  team:
-    - name: Dilowar Hussain Khan
-      role: Director of Finance & Engagement
-      image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=7419cf68-52e3-41e6-84e7-11cadd6a7f4e&w=150&h=210&src=mc
-    - name: Shaykh Abdul Qayum
-      role: Head Imam
-      image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=aecf4922-e797-44a8-a2ff-0ab6b7cf5bf0&w=150&h=210&src=mc
-    - name: Shaykh Mohammed Mahmoud
-      role: Senior Imam
-      image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=5b421c6e-f311-4f5f-bd10-f5505b828541&w=150&h=210&src=mc
-    - name: Sufia Alam
-      role: Head of Programmes & Maryam Centre
-      image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=73fb7ccc-8721-4e2c-9371-1e92bb9134cf&w=150&h=210&src=mc
+  # team:
+  #   - name: Dilowar Hussain Khan
+  #     role: Director of Finance & Engagement
+  #     image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=7419cf68-52e3-41e6-84e7-11cadd6a7f4e&w=150&h=210&src=mc
+  #   - name: Shaykh Abdul Qayum
+  #     role: Head Imam
+  #     image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=aecf4922-e797-44a8-a2ff-0ab6b7cf5bf0&w=150&h=210&src=mc
+  #   - name: Shaykh Mohammed Mahmoud
+  #     role: Senior Imam
+  #     image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=5b421c6e-f311-4f5f-bd10-f5505b828541&w=150&h=210&src=mc
+  #   - name: Sufia Alam
+  #     role: Head of Programmes & Maryam Centre
+  #     image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=73fb7ccc-8721-4e2c-9371-1e92bb9134cf&w=150&h=210&src=mc
   donation:
     title: Donate to the mosque
     subtitle: Help build and maintain the mosque
