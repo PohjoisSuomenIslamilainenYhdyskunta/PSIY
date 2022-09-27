@@ -32,6 +32,17 @@ default: &psiy
     banner_image_url: '../imgs/Masjid_Front.jpg'
     primary_color: "#95112d"
   
+  gallery:
+    img_1: '../imgs/1.jpeg'
+    img_2: '../imgs/2.jpeg'
+    img_3: '../imgs/3.jpeg'
+    header_1: 'First slide'
+    header_2: 'Second slide'
+    header_3: 'Third slide'
+    des_1: 'Eid Reunion 10 July 2022 at Haukipudas'
+    des_2: 'Yet to update'
+    des_3: 'Yet to update'
+  
   # team:
   #   - name: Dilowar Hussain Khan
   #     role: Director of Finance & Engagement
