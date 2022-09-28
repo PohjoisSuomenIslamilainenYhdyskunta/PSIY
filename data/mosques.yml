@@ -32,6 +32,14 @@ default: &psiy
     banner_image_url: '../imgs/Masjid_Front.jpg'
     primary_color: "#95112d"
   
+  gallery:
+    img_1: '../imgs/1.jpeg'
+    img_2: '../imgs/2.jpeg'
+    img_3: '../imgs/3.jpeg'
+    header_1: 'Eid Reunion on 10 July 2022 at Haukipudas'
+    header_2: 'Summer Camp 2022'
+    header_3: 'Children seminar during summer camp 2022'
+
   # team:
   #   - name: Dilowar Hussain Khan
   #     role: Director of Finance & Engagement

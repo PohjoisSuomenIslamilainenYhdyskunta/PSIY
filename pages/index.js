@@ -7,6 +7,7 @@ import GoogleAnalytics from '../components/GoogleAnalytics'
 import HeroBanner from '../components/HeroBanner'
 import MosqueBrandingCSS from '../components/MoqueBrandingCSS'
 import PrayerTimes from '../components/PrayerTimes'
+import Gallery from '../components/Gallery'
 import Team from '../components/Team'
 import mosques from '../data/mosques.yml'
 
@@ -14,6 +15,8 @@ function Home({ data }) {
   return (
     <>
       <Head>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous"></link>
         <title>{data.name} - Mosque Website</title>
         <GoogleAnalytics />
       </Head>
@@ -22,6 +25,7 @@ function Home({ data }) {
       <PrayerTimes data={data} />
       <About data={data} />
       <ContentSection data={data} />
+      <Gallery data={data} />
       <DonationSection data={data} />
       <Team data={data} />
       <Contact data={data} />
