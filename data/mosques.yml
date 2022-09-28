@@ -39,10 +39,7 @@ default: &psiy
     header_1: 'Eid Reunion on 10 July 2022 at Haukipudas'
     header_2: 'Summer Camp 2022'
     header_3: 'Children seminar during summer camp 2022'
-    des_1: 
-    des_2: 
-    des_3: 
-  
+
   # team:
   #   - name: Dilowar Hussain Khan
   #     role: Director of Finance & Engagement
