@@ -18,7 +18,7 @@ default: &psiy
         - Winter - 12:30 pm
         - Summer - 1:30 pm
 
-        [Download](../pages/SEPTEMBER-2022-OULU.pdf) this months timetable.
+        [Download](../OCTOBER-2022-OULU.pdf) this months timetable.
     
     - title: Services
       body: |
@@ -29,7 +29,7 @@ default: &psiy
 
   branding:
     logo_url: '../imgs/PSIY_logo.png'
-    banner_image_url: '../imgs/Masjid_Front.jpg'
+    banner_image_url: '../imgs/mosque.jpeg'
     primary_color: "#95112d"
   
   gallery:
