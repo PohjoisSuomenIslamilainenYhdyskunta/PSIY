@@ -11,6 +11,7 @@ default: &psiy
     
   content_sections:
     - title: Oulu Central Mosque
+      subtitle: Yusuf An Naghi Mosque
       body: |
         [Linnankatu 23-25, 90100 Oulu](https://goo.gl/maps/tup6JDF7UQE3M3LN8)
 
@@ -70,12 +71,12 @@ default: &psiy
       - name: General email
         address: psislamilainen@gmail.com
   
-  halal_shops_information:
-    - label: Tuira Oriental Kauppa Oy
+  other_prayer_areas_information:
+    - label: University of Oulu, Linnanmaa - Quiet Room FY1042
       value:
-    - label: Sham Itämaan Herkku 
+    - label: Yliopistokatu 4A, Linnanmaa - Quiet Room 
       # value: 1122613
-    - label: Damskon lihakauppa
+    - label: Toppila Mosque, Toppila
       value: 
 psiy.mosque.website:
   <<: *psiy
