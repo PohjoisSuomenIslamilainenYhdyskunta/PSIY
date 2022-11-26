@@ -46,15 +46,15 @@ export default function Contact(props) {
               ))}
             </div>
           </div>)}
-          {props.data.halal_shops_information && (<div className="mt-12 sm:mt-16 md:mt-0">
-            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Halal Shops in Oulu</h2>
+          {props.data.other_prayer_areas_information && (<div className="mt-12 sm:mt-16 md:mt-0">
+            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Prayer areas in Oulu</h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Information about the halal shops
+                Information about other prayer areas in Oulu
               </p>
             </div>
             <div className="mt-9">
-              {props.data.halal_shops_information && props.data.halal_shops_information.map( (info) => (
+              {props.data.other_prayer_areas_information && props.data.other_prayer_areas_information.map( (info) => (
                 <div className="flex" key={info.label}>
                   <div className="flex-shrink-0">
                     {info.label}
