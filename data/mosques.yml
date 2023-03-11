@@ -20,6 +20,8 @@ default: &psiy
         - Summer - 1:30 pm
 
         [Download](../MARCH-2023-OULU.pdf) this months timetable.
+        
+        [Ramadan 2023 timetable](../Ramadan-2023.pdf) color graded.
     
     - title: Services
       body: |
@@ -34,12 +36,14 @@ default: &psiy
     primary_color: "#95112d"
   
   gallery:
-    img_1: '../imgs/1.jpeg'
-    img_2: '../imgs/2.jpeg'
-    img_3: '../imgs/3.jpeg'
-    header_1: 'Eid Reunion on 10 July 2022 at Haukipudas'
+    img_1: '../imgs/23_winter_family.jpeg'
+    img_2: '../imgs/22_summer_camp.jpeg'
+    img_3: '../imgs/22_summer_children.jpeg'
+    img_4: '../imgs/22_Eid_Reunion.jpeg'
+    header_1: 'Winter Family Program 2023 at Virpiniemi'
     header_2: 'Summer Camp 2022'
     header_3: 'Children seminar during summer camp 2022'
+    header_4: 'Eid Reunion on 10 July 2022 at Haukipudas'
 
   # team:
   #   - name: Dilowar Hussain Khan
