@@ -57,6 +57,23 @@ export default function Gallery(props) {
                         <h3>{props.data.gallery.header_3}</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img 
+                        className='d-block w-100'
+                        style={{
+                            height: 500,
+                            paddingLeft: 300,
+                            paddingRight: 300,
+                            paddingBottom: 20,
+                            paddingTop: 20
+                        }}
+                        src={props.data.gallery.img_4}
+                        alt='Fourth slide'
+                    />
+                    <Carousel.Caption>
+                        <h3>{props.data.gallery.header_4}</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </div>   
     )
