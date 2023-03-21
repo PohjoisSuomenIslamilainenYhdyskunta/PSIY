@@ -11,7 +11,7 @@ default: &psiy
     
   content_sections:
     - title: Oulu Central Mosque
-      subtitle: Yusuf An Naghi Mosque
+      subtitle: Yusuf Naaghi Masjid Oulu
       body: |
         [Linnankatu 23-25, 90100 Oulu](https://goo.gl/maps/tup6JDF7UQE3M3LN8)
 
@@ -19,7 +19,7 @@ default: &psiy
         - Winter - 12:30 pm
         - Summer - 1:30 pm
 
-        [Download](../MARCH-2023-OULU.pdf) this months timetable.
+        [Download](../MARCH-2023-OULU.pdf) this months prayer timetable.
         
         [Ramadan 2023 timetable](../Ramadan-2023.pdf) color graded.
     
@@ -29,6 +29,15 @@ default: &psiy
         - It also takes care of the funeral activities for the deceased Muslim members.
         - It can arrange seminars and exhibitions to introduce Islam to the local Finnish people.
         - It collaborates with the Oulu City council, Oulu Church authority, and other religious ogranizations for integration.
+    
+    - title: Resources
+      subtitle: Membership Applications
+      body: |
+        - [Joining a religious community](https://dvv.fi/documents/16079645/20465665/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4/c3e44fb3-bb4f-1602-2963-98e0c3aef949/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4.pdf?t=1636468411778)
+        - [Consent of a 12-17-year-old to join/leave a religious denomination](https://dvv.fi/documents/16079645/20465665/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen/cbbf43a9-941e-7d06-202a-53d6e0935f23/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen.pdf?t=1673864183400)
+        - [Consent of the guardians of a 15-17-year-old to join/leave a religious community](https://dvv.fi/documents/16079645/20465665/Huoltajien+suostumus+15-17-vuotiaan+henkil%C3%B6n+uskonnolliseen+yhdyskuntaan+liittymiseen+tai+yhdyskunnasta+eroamiseen/ddbddc8d-286c-36c4-2d1d-de06f1615777/Huoltajien+suostumus+15-17-vuotiaan+henkil%C3%B6n+uskonnolliseen+yhdyskuntaan+liittymiseen+tai+yhdyskunnasta+eroamiseen.pdf?t=1673864153458)
+
+        To join the association, fill out the membership application and the appropriate VRK forms found in the links above. The completed documents must be duly signed and brought to the masjid office. Once the board or the imam approves the petition, the VRK form will be sent to the appropriate authority.
 
   branding:
     logo_url: '../imgs/PSIY_logo.png'
@@ -74,6 +83,10 @@ default: &psiy
     email_addresses:
       - name: General email
         address: psislamilainen@gmail.com
+    facebook_page:
+      - name: Visit our Facebook page for upcoming events
+        link: https://www.facebook.com/profile.php?id=100088755501692
+        pink: Link
   
   other_prayer_areas_information:
     - label: University of Oulu, Linnanmaa - Quiet Room FY1042
