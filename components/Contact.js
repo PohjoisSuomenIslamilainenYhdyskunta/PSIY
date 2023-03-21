@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { HomeIcon, PhoneIcon, MailIcon } from '@heroicons/react/outline'
+import { HomeIcon, PhoneIcon, MailIcon, UserGroupIcon} from '@heroicons/react/outline'
 
 export default function Contact(props) {
   return (
@@ -44,6 +44,17 @@ export default function Contact(props) {
                   </div>
                 </div>
               ))}
+              {props.data.contact && props.data.contact.facebook_page && props.data.contact.facebook_page.map( (facebook) => (
+                <div className="flex mb-2" key={facebook.link}>
+                  <div className="flex-shrink-0">
+                    <UserGroupIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+                  </div>
+                  <div className="ml-3 text-base text-gray-500">
+                    {facebook.name} - <a href={facebook.link} target="_blank">{facebook.pink}</a>
+                  </div>
+                </div>
+              ))}
+              
             </div>
           </div>)}
           {props.data.other_prayer_areas_information && (<div className="mt-12 sm:mt-16 md:mt-0">
