@@ -82,7 +82,7 @@ default: &psiy
         number: "+358 50 0582371"
     email_addresses:
       - name: General email
-        address: psislamilainen@gmail.com
+        address: info@psiy.fi
     facebook_page:
       - name: Visit our Facebook page for upcoming events
         link: https://www.facebook.com/profile.php?id=100088755501692
