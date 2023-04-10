@@ -1,4 +1,7 @@
 import Link from "next/link"
+import React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const navigation = [
  // { name: 'About us', href: '/about' },
@@ -60,7 +63,14 @@ export default function HeroBanner(props) {
                     href={props.data.donation.link}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white mosque-website__cta-button--brand opacity-90 hover:opacity-100 md:py-4 md:text-lg md:px-10"
                   >
-                    {props.data.donation.link_label}
+                    <Popup trigger={<button>Donate Now</button>}
+                    position="right center">
+                      <div> Bank transfer Information</div>
+                      <div> Name: Pohjois Suomen Islamilainen Yhdyskunta (PSIY)</div>
+                      <div> Bank: Nordea Bank</div>
+                      <div>Account Number: FI0720501800038336</div>
+                    </Popup>
+                    {/* {props.data.donation.link_label} */}
                   </a>
                 </div>
               </div>)}
