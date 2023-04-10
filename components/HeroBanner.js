@@ -57,7 +57,7 @@ export default function HeroBanner(props) {
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 {props.data.description}
               </p>
-              {props.data.donation && (<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              {/* {props.data.donation && (<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href={props.data.donation.link}
@@ -70,10 +70,10 @@ export default function HeroBanner(props) {
                       <div> Bank: Nordea Bank</div>
                       <div>Account Number: FI0720501800038336</div>
                     </Popup>
-                    {/* {props.data.donation.link_label} */}
+                    {props.data.donation.link_label}
                   </a>
                 </div>
-              </div>)}
+              </div>)} */}
             </div>
           </main>
         </div>
