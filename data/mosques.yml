@@ -43,7 +43,7 @@ default: &psiy
     primary_color: "#95112d"
   
   gallery:
-    img_1: '../imgs/23_EidulFitr.jpeg'
+    img_1: '../imgs/23_EidulFitr.jpg'
     img_2: '../imgs/23_winter_family.jpeg'
     img_3: '../imgs/22_summer_camp.jpeg'
     img_4: '../imgs/22_summer_children.jpeg'
