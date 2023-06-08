@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { HomeIcon, PhoneIcon, MailIcon } from '@heroicons/react/outline'
+import { HomeIcon, PhoneIcon, MailIcon, UserGroupIcon} from '@heroicons/react/outline'
 
 export default function Contact(props) {
   return (
@@ -44,17 +44,28 @@ export default function Contact(props) {
                   </div>
                 </div>
               ))}
+              {props.data.contact && props.data.contact.facebook_page && props.data.contact.facebook_page.map( (facebook) => (
+                <div className="flex mb-2" key={facebook.link}>
+                  <div className="flex-shrink-0">
+                    <UserGroupIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+                  </div>
+                  <div className="ml-3 text-base text-gray-500">
+                    {facebook.name} - <a href={facebook.link} target="_blank">{facebook.pink}</a>
+                  </div>
+                </div>
+              ))}
+              
             </div>
           </div>)}
-          {props.data.charity_information && (<div className="mt-12 sm:mt-16 md:mt-0">
-            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Charity Information</h2>
+          {props.data.other_prayer_areas_information && (<div className="mt-12 sm:mt-16 md:mt-0">
+            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Prayer areas in Oulu</h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Information about the charity
+                Information about other prayer areas in Oulu
               </p>
             </div>
             <div className="mt-9">
-              {props.data.charity_information && props.data.charity_information.map( (info) => (
+              {props.data.other_prayer_areas_information && props.data.other_prayer_areas_information.map( (info) => (
                 <div className="flex" key={info.label}>
                   <div className="flex-shrink-0">
                     {info.label}

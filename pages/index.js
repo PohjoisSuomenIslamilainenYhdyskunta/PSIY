@@ -10,8 +10,48 @@ import PrayerTimes from '../components/PrayerTimes'
 import Gallery from '../components/Gallery'
 import Team from '../components/Team'
 import mosques from '../data/mosques.yml'
+import mosques_fi from '../data/mosques_fi.yml'
+import urlModule from 'url'
 
-function Home({ data }) {
+import { useState, useEffect } from 'react';
+import { withRouter } from 'next/router';
+
+/*function Home({ data }) {
+  const [language, setLanguage] = useState('EN'); // Default language is set to English (EN)
+
+  const handleLanguageChange = (lang) => {
+    setLanguage(lang);
+  };*/
+  function Home({ data, router }) {
+    const [language, setLanguage] = useState('FI'); // Default language is set to English (EN)
+
+    //const router = useRouter();
+
+    useEffect(() => {
+      // Extract the language from the URL hash
+      const hashLanguage = window.location.hash.slice(1);
+      if (hashLanguage === 'EN') {
+        setLanguage('EN');
+      } else {
+        setLanguage('FI');
+      }
+    }, []);
+  
+    const handleLanguageChange = (lang) => {
+      setLanguage(lang);
+  
+      // Update the URL hash based on the selected language
+      window.location.hash = lang;
+      router.reload(); // Reload the page to reflect the language change
+    };
+  
+    // Select the appropriate data object based on the selected language
+    const selectedData = language === 'EN' ? mosques[data.hash] : mosques_fi[data.hash];
+
+    //console.log(data);
+    console.log(language)
+    
+
   return (
     <>
       <Head>
@@ -21,6 +61,8 @@ function Home({ data }) {
         <GoogleAnalytics />
       </Head>
       <MosqueBrandingCSS data={data} />
+      <button onClick={() => handleLanguageChange('EN')}>English</button> &nbsp; 
+      <button onClick={() => handleLanguageChange('FI')}>Finnish</button>
       <HeroBanner data={data} />
       <PrayerTimes data={data} />
       <About data={data} />
@@ -34,8 +76,18 @@ function Home({ data }) {
 }
 
 Home.getInitialProps = async ({ req }) => {
-  const data = mosques[ req.headers.host ] ?? mosques[ "default" ]
-  return { data: data }
-}
 
-export default Home
+  const urlString = req && req.headers && req.headers.host ? `http://${req.headers.host}${req.url}` : '';
+  console.log('Website URL:', urlString);
+  const parsedUrl = urlModule.parse(urlString);
+  const hash = parsedUrl.hash;
+  console.log(req.hashLanguage)
+
+  const data = mosques_fi[ req.headers.host ] ?? mosques_fi[ "default" ]
+  //const data = selectedData
+  return { data: data }
+};
+
+
+//export default Home
+export default withRouter(Home);

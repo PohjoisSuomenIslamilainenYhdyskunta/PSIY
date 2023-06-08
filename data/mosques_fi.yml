@@ -1,15 +1,18 @@
 ---
 default: &psiy
-  primary_color: '#ff0000'
-  secondary_color: '#00ff00'
+  primary_color: '#0000ff'
+  secondary_color: '#ffff00'
   name: Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)
   description: |
     PSIY is the local central mosque of Oulu, that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
   about: |
-    The Islamic Society of Northern Finland was registered in 2000, but Islamic activities began in the 90s. Our actions are a response to the call of Allah SWT(Subhanahu wata`ala): "and that you may become a congregation that calls people to goodness, guides them to the right way of life, and prevents them from evil" (Surah Al-Imran: verse 104).
-    The goal of the organization is to please Allah (SWT) by striving to promote Islam, develop the Muslim community and benefit society. The organization always follows the Qur'an and the Sunnah (Prophets teaching), along with the Islamic Sharia, when making decisions and drawing up policies and procedures.
+   Pohjois-Suomen Islamilainen Yhdyskunta on rekisteröity vuonna 2000, mutta Islamilainen toiminta on alkanut 90-luvulla. Toimintamme on vastaus Allahin SWT(Subhanahu wata`ala) kutsuun: 
+    ”ja jotta teistä tulisi seurakunta, joka kutsuu ihmisiä hyvyyteen, 
+     säätää heille oikeat elämäntavat ja estää heitä pahuudesta” (Suura Al-Imran:104). 
+    Tärkein toiveemme on miellyttää Allahia SWT(Subhanahu wata`ala). Päämääränä järjestössä on Allahin (SWT) mieltymys pyrkimällä edistämään Islamia, kehittämään Muslimi 
+    yhteisöä ja hyödyttämään yhteiskuntaa. Järjestö seuraa aina Koraania ja Sunnaa, kuinmyös Islamilaista Shariaa, tehdessä päätöksiä ja laatiessa käytäntöjä ja toimintatapoja.
 
-    We are based in Oulu, Northern Ostrobothnia, Finland. (English)
+    We are based in Oulu, Northern Ostrobothnia, Finland.
     
   content_sections:
     - title: Oulu Central Mosque

@@ -1,4 +1,7 @@
 import ReactMarkdown from 'react-markdown'
+import React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export default function DonationSection(props) {
   return (<>
@@ -19,7 +22,14 @@ export default function DonationSection(props) {
               href={props.data.donation.link}
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white mosque-website__cta-button--brand opacity-90 hover:opacity-100"
             >
-              {props.data.donation.link_label}
+              {/* {props.data.donation.link_label} */}
+              <Popup trigger={<button>Donate Now</button>}
+              position="right center">
+                <div> Bank transfer Information</div>
+                <div> Name: Pohjois Suomen Islamilainen Yhdyskunta (PSIY)</div>
+                <div> Bank: Nordea Bank</div>
+                <div>Account Number: FI0720501800038336</div>
+              </Popup>
             </a>
           </div>
         </div>
