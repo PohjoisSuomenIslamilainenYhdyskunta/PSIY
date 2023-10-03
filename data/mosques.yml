@@ -1,8 +1,13 @@
 ---
 default: &psiy
-  name: Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)
-  description: |
-    PSIY is the local central mosque of Oulu, that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
+  name: 
+    en: Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)
+    fi: Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)
+  description: 
+    en: |
+      PSIY is the local central mosque of Oulu, that runs religious and social activities as well as education training, well fit sports & recreation. We also hold learning sessions for the children, advisory sessions for the local community.
+    fi: |
+      PSIY on Oulun paikallinen keskusmoskeija, joka järjestää uskonnollista ja sosiaalista toimintaa sekä koulutusta, hyvin soveltuvaa urheilua ja virkistystä. Järjestämme myös oppimistilaisuuksia lapsille, neuvontatilaisuuksia paikalliselle yhteisölle.
   about: |
     The Islamic Society of Northern Finland was registered in 2000, but Islamic activities began in the 90s. Our actions are a response to the call of Allah SWT(Subhanahu wata`ala): "and that you may become a congregation that calls people to goodness, guides them to the right way of life, and prevents them from evil" (Surah Al-Imran: verse 104).
     The goal of the organization is to please Allah (SWT) by striving to promote Islam, develop the Muslim community and benefit society. The organization always follows the Qur'an and the Sunnah (Prophets teaching), along with the Islamic Sharia, when making decisions and drawing up policies and procedures.
@@ -10,8 +15,12 @@ default: &psiy
     We are based in Oulu, Northern Ostrobothnia, Finland.
     
   content_sections:
-    - title: Oulu Central Mosque
-      subtitle: Yusuf Naaghi Masjid Oulu
+    - title: 
+        en: Oulu Central Mosque
+        fi: Oulun keskusmoskeija
+      subtitle: 
+        en: Yusuf Naaghi Masjid Oulu
+        fi: Yusuf Naaghi Masjid Oulu
       body: |
         [Linnankatu 23-25, 90100 Oulu](https://goo.gl/maps/tup6JDF7UQE3M3LN8)
 
@@ -21,19 +30,27 @@ default: &psiy
 
         [Download](../JUNE-2023-OULU.pdf) this months prayer timetable.
     
-    - title: News
+    - title: 
+        en: News
+        fi: Uutiset
       body: |
-        - [21.6.2023 23.37] **Eid ul Adha will on 28th June 2023. The prayer would be at 9 am, Rajakylä School (Riskukkatie 4-6, 90580, Oulu), GATE E.**
+        - [21.6.2023 23.37] **Eid ul Adha will on 28th June 2023. The prayer would be at 9 am, RajakylÃ¤ School (Riskukkatie 4-6, 90580, Oulu), GATE E.**
 
-    - title: Services
+    - title: 
+        en: Services
+        fi: Palvelut
       body: |
         - PSIY has the license for making Nikah as per Islamic shariah law.
         - It also takes care of the funeral activities for the deceased Muslim members.
         - It can arrange seminars and exhibitions to introduce Islam to the local Finnish people.
         - It collaborates with the Oulu City council, Oulu Church authority, and other religious ogranizations for integration.
     
-    - title: Resources
-      subtitle: Membership Applications
+    - title: 
+        en: Resources
+        fi: Resurssit
+      subtitle: 
+        en: Membership Applications
+        fi: Jäsenhakemukset
       body: |
         - [Joining a religious community](https://dvv.fi/documents/16079645/20465665/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4/c3e44fb3-bb4f-1602-2963-98e0c3aef949/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4.pdf?t=1636468411778)
         - [Consent of a 12-17-year-old to join/leave a religious denomination](https://dvv.fi/documents/16079645/20465665/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen/cbbf43a9-941e-7d06-202a-53d6e0935f23/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen.pdf?t=1673864183400)
@@ -72,32 +89,50 @@ default: &psiy
   #     role: Head of Programmes & Maryam Centre
   #     image_url: https://www.eastlondonmosque.org.uk/GetImage.aspx?IDMF=73fb7ccc-8721-4e2c-9371-1e92bb9134cf&w=150&h=210&src=mc
   donation:
-    title: Donate to the mosque
-    subtitle: Help build and maintain the mosque
+    title: 
+      en: Donate to the mosque
+      fi: Lahjoita moskeijalle
+    subtitle: 
+      en: Help build and maintain the mosque
+      fi: Auta moskeijan rakentamisessa ja ylläpidossa
     description: |
-      Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ﷺ said: “Allah said: ‘Spend, O son of Adam, and I shall spend on you.’”.
-    link_label: Donate now
+      Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ï·º said: âAllah said: âSpend, O son of Adam, and I shall spend on you.ââ.
+    link_label: 
+      en: Donate now
+      fi: Lahjoita nyt
     link: 
   contact:
     addresses:
     	- Oulu Central Mosque, Linnankatu 23-25, 90100 Oulu, Finland
     phone_numbers:
-      - name: President - Dr. Abdul Mannan
+      - name: 
+          en: President - Dr. Abdul Mannan
+          fi: Puheenjohtaja - Dr. Abdul Mannan
         number: "+358 50 0582371"
     email_addresses:
-      - name: General email
+      - name: 
+          en: General email
+          fi: Yleinen sähköposti
         address: info@psiy.fi
     facebook_page:
-      - name: Visit our Facebook page for upcoming events
+      - name: 
+          en: Visit our Facebook page for upcoming events
+          fi: Vieraile Facebook-sivullamme tulevia tapahtumia varten
         link: https://www.facebook.com/profile.php?id=100088755501692
         pink: Link
   
   other_prayer_areas_information:
-    - label: University of Oulu, Linnanmaa - Quiet Room FY1042
+    - label: 
+        en: University of Oulu, Linnanmaa - Quiet Room FY1042
+        fi: Oulun yliopisto, Linnanmaa - Hiljainen huone FY1042
       value:
-    - label: Yliopistokatu 4A, Linnanmaa - Quiet Room 
+    - label: 
+        en: Yliopistokatu 4A, Linnanmaa - Quiet Room 
+        fi: Yliopistokatu 4A, Linnanmaa - Hiljainen huone
       # value: 1122613
-    - label: Toppila Mosque, Toppila
+    - label: 
+        en: Toppila Mosque, Toppila
+        fi: Toppilan moskeija, Toppila
       value: 
 psiy.mosque.website:
   <<: *psiy

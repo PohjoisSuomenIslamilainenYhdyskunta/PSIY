@@ -1,11 +1,12 @@
-/** @type {import('next').NextConfig} */
+const { i18n } = require('./next-i18next.config');
+const withYAML = require('next-yaml');
+
 module.exports = {
   reactStrictMode: true,
   images: {
     domains: ['github.com'],
   },
-}
-const { i18n } = require('next-i18next')
-const withYAML = require('next-yaml')
-module.exports = withYAML(module.exports)
-module.exports = { i18n}
+  i18n,
+};
+
+module.exports = withYAML(module.exports);
