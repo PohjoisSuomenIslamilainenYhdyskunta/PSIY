@@ -5,7 +5,7 @@ import ContentSection from '../components/ContentSection'
 import DonationSection from '../components/DonationSection'
 import GoogleAnalytics from '../components/GoogleAnalytics'
 import HeroBanner from '../components/HeroBanner'
-import MosqueBrandingCSS from '../components/MoqueBrandingCSS'
+import MosqueBrandingCSS from '../components/MosqueBrandingCSS'
 import PrayerTimes from '../components/PrayerTimes'
 import Gallery from '../components/Gallery'
 import Team from '../components/Team'
@@ -14,7 +14,7 @@ import { i18n } from 'next-i18next'
 import { useState } from 'react'
 
 function Home({ data }) {
-  const [lang, setLang] = useState(i18n.language || 'en')
+  const [lang, setLang] = useState(i18n?.language || 'en')
 
   const switchLanguage = () => {
     const newLang = lang === 'en' ? 'fi' : 'en'

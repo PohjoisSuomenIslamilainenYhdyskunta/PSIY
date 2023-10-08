@@ -1,18 +1,13 @@
 import '../styles/globals.css'
 import { appWithTranslation } from 'next-i18next';
-import { I18nextProvider } from 'react-i18next';
 import { i18n } from '../next-i18next.config';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <I18nextProvider
-      // pass i18n instance to NextI18NextProvider
-      i18n={i18n}
-      // other NextI18NextProvider props if needed
-    >
+    <appWithTranslation i18n={i18n}>
       <Component {...pageProps} />
-    </I18nextProvider>
+    </appWithTranslation>
   );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;
