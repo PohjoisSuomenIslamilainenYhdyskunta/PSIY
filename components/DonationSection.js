@@ -24,11 +24,14 @@ export default function DonationSection(props) {
             >
               {/* {props.data.donation.link_label} */}
               <Popup trigger={<button>Donate Now</button>}
-              position="right center">
-                <div> Bank transfer Information</div>
-                <div> Name: Pohjois Suomen Islamilainen Yhdyskunta (PSIY)</div>
-                <div> Bank: Nordea Bank</div>
-                <div>Account Number: FI0720501800038336</div>
+              position="right center"
+              size="large">
+                {/* <div className="custom-popup-content"> */}
+                  <div> Bank transfer Information</div>
+                  <div> Name: Pohjois Suomen Islamilainen Yhdyskunta (PSIY)</div>
+                  <div> Bank: Danske Bank</div>
+                  <div>Account Number: FI9789008710565976</div>
+                {/* </div> */}
               </Popup>
             </a>
           </div>
