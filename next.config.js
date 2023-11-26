@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
-  images: {
-    domains: ['github.com'],
-  },
-}
+const nextConfig = {};
 
-const withYAML = require('next-yaml')
-module.exports = withYAML(module.exports)
+const withNextIntl = require("next-intl/plugin")(
+  // This is the default (also the `src` folder is supported out of the box)
+  "./i18n.js"
+);
+
+module.exports = withNextIntl(nextConfig);
+

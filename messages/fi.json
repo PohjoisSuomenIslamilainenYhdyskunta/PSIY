@@ -1,0 +1,99 @@
+{
+  "default": {
+    "name": "Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)",
+    "description": "PSIY on Oulun paikallinen keskusmoskeija, jossa järjestetään uskonnollista ja sosiaalista toimintaa sekä koulutusta, kuntoilua ja virkistystä. Järjestämme myös oppimistilaisuuksia lapsille, neuvontatilaisuuksia paikallisyhteisölle.",
+    "about": "Pohjois-Suomen islamilainen seura rekisteröitiin vuonna 2000, mutta islamilainen toiminta alkoi 90-luvulla. Toimintamme on vastaus Allah SWT:n (Subhanahu wata`ala) kutsuun: \"ja jotta teistä tulisi seurakunta, joka kutsuu ihmisiä hyvyyteen, opastaa heitä oikealle elämäntavalle ja estää heitä pahasta\" (Surah Al -Imran: jae 104).\nJärjestön tavoitteena on miellyttää Allahia (SWT) pyrkimällä edistämään islamia, kehittämään muslimiyhteisöä ja hyödyttämään yhteiskuntaa. Organisaatio noudattaa aina Koraania ja Suntaa (Profeettojen opetus) sekä islamilaista shariaa tehdessään päätöksiä ja laatiessaan toimintatapoja ja menettelytapoja.\n\nToimimme Oulussa, Pohjois-Pohjanmaalla.",
+    "content_sections": [
+      {
+        "title": "Oulun keskusmoskeija",
+        "subtitle": "Yusuf Naaghi Masjid Oulu",
+        "body": "[Linnankatu 23-25, 90100 Oulu](https://goo.gl/maps/tup6JDF7UQE3M3LN8)\n\nJummah kertaa \n- Talvi - 12:30 pm\n- Kesä - 1:30 pm\n\n[Lataa](../JUNE-2023-OULU.pdf) tämän kuukauden rukousaikataulu."
+      },
+      {
+        "title": "News",
+        "body": "- [21.6.2023 23.37] **Eid ul Adha tulee 28.6.2023. Rukous olisi klo 9, Rajakylän koulu (Riskukkatie 4-6, 90580, Oulu), PORTTI E.**"
+      },
+      {
+        "title": "Palvelut",
+        "body": "- PSIY:llä on lisenssi Nikahin tekemiseen islamilaisen sharia-lain mukaisesti.\n- Se hoitaa myös kuolleiden muslimijäsenten hautajaiset.\n- Se voi järjestää seminaareja ja näyttelyitä, joissa esitellään islamia paikallisille suomalaisille.\n- Se tekee yhteistyötä Oulun kaupunginvaltuuston, Oulun kirkkoviranomaisen ja muiden uskonnollisten järjestöjen kanssa integraatiota varten."
+      },
+      {
+        "title": "Resurssit",
+        "subtitle": "Jäsenhakemukset",
+        "body": "- [Liittyminen uskonnolliseen yhteisöön](https://dvv.fi/documents/16079645/20465665/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4/c3e44fb3-bb4f-1602-2963-98e0c3aef949/Ilmoitus+uskonnolliseen+yhdyskuntaan+liittymisest%C3%A4.pdf?t=1636468411778)\n- [12–17-vuotiaan suostumus liittyä uskonnolliseen kirkkokuntaan tai erota siitä](https://dvv.fi/documents/16079645/20465665/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen/cbbf43a9-941e-7d06-202a-53d6e0935f23/12-17+vuotiaan+henkil%C3%B6n+suostumus+uskonnolliseen+yhdyskuntaan+liittymiseen-uskonnollisesta+yhdyskunnasta+eroamiseen.pdf?t=1673864183400)\n- [15-17-vuotiaan huoltajan suostumus liittyä uskonnolliseen yhteisöön/poistua siitä](https://dvv.fi/documents/16079645/20465665/Huoltajien+suostumus+15-17-vuotiaan+henkil%C3%B6n+uskonnolliseen+yhdyskuntaan+liittymiseen+tai+yhdyskunnasta+eroamiseen/ddbddc8d-286c-36c4-2d1d-de06f1615777/Huoltajien+suostumus+15-17-vuotiaan+henkil%C3%B6n+uskonnolliseen+yhdyskuntaan+liittymiseen+tai+yhdyskunnasta+eroamiseen.pdf?t=1673864153458)\n\nLiittyäksesi yhdistykseen, täytä jäsenhakemus ja oheisista linkeistä löytyvät asianmukaiset VRK-lomakkeet. Täytetyt asiakirjat tulee allekirjoittaa asianmukaisesti ja tuoda messutoimistoon. Kun lautakunta tai imaami on hyväksynyt hakemuksen, VRK-lomake lähetetään toimivaltaiselle viranomaiselle."
+      }
+    ],
+    "branding": {
+      "logo_url": "../imgs/PSIY_logo.png",
+      "banner_image_url": "../imgs/mosque.jpeg",
+      "primary_color": "#95112d"
+    },
+    "gallery": {
+      "img_1": "../imgs/23_winter_family.jpeg",
+      "img_2": "../imgs/22_summer_camp.jpeg",
+      "img_3": "../imgs/22_summer_children.jpeg",
+      "img_4": "../imgs/22_Eid_Reunion.jpeg",
+      "header_1": "Winter Family Program 2023 at Virpiniemi",
+      "header_2": "Summer Camp 2022",
+      "header_3": "Children seminar during summer camp 2022",
+      "header_4": "Eid Reunion on 10 July 2022 at Haukipudas"
+    },
+    "donation.title": "Donate to the mosque",
+    "donation.subtitle": "Help build and maintain the mosque",
+    "donation.description": "Your contribution will help us to maintain and develop the wide range of services we offer. Prophet Muhammad ﷺ said: “Allah said: ‘Spend, O son of Adam, and I shall spend on you.’”.",
+    "donation.link_label": "Donate now",
+    "donation.link": null,
+    "contact": {
+      "addresses": [
+        "Oulu Central Mosque, Linnankatu 23-25, 90100 Oulu, Finland"
+      ],
+      "phone_numbers": [
+        {
+          "name": "President - Dr. Abdul Mannan",
+          "number": "+358 50 0582371"
+        }
+      ],
+      "email_addresses": [
+        {
+          "name": "General email",
+          "address": "info@psiy.fi"
+        }
+      ],
+      "facebook_page": [
+        {
+          "name": "Visit our Facebook page for upcoming events",
+          "link": "https://www.facebook.com/profile.php?id=100088755501692",
+          "pink": "Link"
+        }
+      ]
+    },
+    "other_prayer_areas_information": [
+      {
+        "label": "University of Oulu, Linnanmaa - Quiet Room FY1042",
+        "value": null
+      },
+      {
+        "label": "Yliopistokatu 4A, Linnanmaa - Quiet Room",
+        "value": null
+      },
+      {
+        "label": "Toppila Mosque, Toppila",
+        "value": null
+      }
+    ],
+    "psiy.mosque.website": {
+      "name": "Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)",
+      "description": "PSIY on Oulun paikallinen keskusmoskeija, jossa järjestetään uskonnollista ja sosiaalista toimintaa sekä koulutusta, kuntoilua ja virkistystä. Järjestämme myös oppimistilaisuuksia lapsille, neuvontatilaisuuksia paikallisyhteisölle.",
+      "about": "Pohjois-Suomen islamilainen seura rekisteröitiin vuonna 2000, mutta islamilainen toiminta alkoi 90-luvulla. Toimintamme on vastaus Allah SWT:n (Subhanahu wata`ala) kutsuun: \"ja jotta teistä tulisi seurakunta, joka kutsuu ihmisiä hyvyyteen, opastaa heitä oikealle elämäntavalle ja estää heitä pahasta\" (Surah Al -Imran: jae 104).\nJärjestön tavoitteena on miellyttää Allahia (SWT) pyrkimällä edistämään islamia, kehittämään muslimiyhteisöä ja hyödyttämään yhteiskuntaa. Organisaatio noudattaa aina Koraania ja Suntaa (Profeettojen opetus) sekä islamilaista shariaa tehdessään päätöksiä ja laatiessaan toimintatapoja ja menettelytapoja.\n\nToimimme Oulussa, Pohjois-Pohjanmaalla."
+    },
+    "eastlondon.mosque.website": {
+      "name": "Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)",
+      "description": "PSIY on Oulun paikallinen keskusmoskeija, jossa järjestetään uskonnollista ja sosiaalista toimintaa sekä koulutusta, kuntoilua ja virkistystä. Järjestämme myös oppimistilaisuuksia lapsille, neuvontatilaisuuksia paikallisyhteisölle.",
+      "about": "Pohjois-Suomen islamilainen seura rekisteröitiin vuonna 2000, mutta islamilainen toiminta alkoi 90-luvulla. Toimintamme on vastaus Allah SWT:n (Subhanahu wata`ala) kutsuun: \"ja jotta teistä tulisi seurakunta, joka kutsuu ihmisiä hyvyyteen, opastaa heitä oikealle elämäntavalle ja estää heitä pahasta\" (Surah Al -Imran: jae 104).\nJärjestön tavoitteena on miellyttää Allahia (SWT) pyrkimällä edistämään islamia, kehittämään muslimiyhteisöä ja hyödyttämään yhteiskuntaa. Organisaatio noudattaa aina Koraania ja Suntaa (Profeettojen opetus) sekä islamilaista shariaa tehdessään päätöksiä ja laatiessaan toimintatapoja ja menettelytapoja.\n\nToimimme Oulussa, Pohjois-Pohjanmaalla."
+    },
+    "localhost:3000": {
+      "name": "Pohjois-Suomen Islamilainen Yhdyskunta (PSIY)",
+      "description": "PSIY on Oulun paikallinen keskusmoskeija, jossa järjestetään uskonnollista ja sosiaalista toimintaa sekä koulutusta, kuntoilua ja virkistystä. Järjestämme myös oppimistilaisuuksia lapsille, neuvontatilaisuuksia paikallisyhteisölle."
+    }
+  }
+}
