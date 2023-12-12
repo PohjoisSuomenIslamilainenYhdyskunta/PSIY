@@ -23,6 +23,7 @@ default: &psiy
     
     - title: News
       body: |
+        - [13.12.2023 0.55] **Prayer times of Oulu Masjid have been added to the [MAWAQIT](https://play.google.com/store/apps/details?id=com.kanout.mawaqit) – مواقیت application [Click here for more information](https://www.facebook.com/photo?fbid=326079870360527&set=pb.100088755501692.-2207520000).** 
         - [21.6.2023 23.37] **Eid ul Adha will on 28th June 2023. The prayer would be at 9 am, Rajakylä School (Riskukkatie 4-6, 90580, Oulu), GATE E.**
 
     - title: Services
