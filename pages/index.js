@@ -9,6 +9,7 @@ import MosqueBrandingCSS from '../components/MosqueBrandingCSS'
 import PrayerTimes from '../components/PrayerTimes'
 import Gallery from '../components/Gallery'
 import Team from '../components/Team'
+import ContactForm from '../components/ContactForm'
 import mosques from '../data/mosques.yml'
 
 function Home({ data }) {
@@ -17,7 +18,7 @@ function Home({ data }) {
       <Head>
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous"></link>
-        <title>{data.name} - Mosque Website</title>
+        <title>{data.name} - Masjid Website</title>
         <GoogleAnalytics />
       </Head>
       <MosqueBrandingCSS data={data} />
@@ -29,6 +30,7 @@ function Home({ data }) {
       <DonationSection data={data} />
       <Team data={data} />
       <Contact data={data} />
+      <ContactForm />
     </>
   )
 }
